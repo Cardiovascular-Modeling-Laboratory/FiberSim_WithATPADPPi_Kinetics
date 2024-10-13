@@ -2446,6 +2446,7 @@ int half_sarcomere::return_m_transition(double time_step, int m_counter, int cb_
         // for (size_t i = 0; i < vector_size; ++i) {
         //     std::cout << "transition_probs after at index " << i << ": " << gsl_vector_get(transition_probs, i) << std::endl;
         // }
+        
     }
 
     // Use random number to determine which event (if any) occurred
