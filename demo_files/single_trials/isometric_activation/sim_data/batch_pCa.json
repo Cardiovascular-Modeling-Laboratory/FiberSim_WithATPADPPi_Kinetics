@@ -1,0 +1,38 @@
+{
+    "FiberSim_batch": {
+        "FiberCpp_exe": {
+            "exe_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\../../../../bin/FiberCpp.exe"
+        },
+        "job": [
+            {
+                "relative_to": "False",
+                "protocol_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\../sim_data\\sim_input\\1\\prot_pCa_45_s_0_r1.txt",
+                "results_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\../sim_data\\sim_output\\1\\sim_pCa_45_s_0_r1.txt",
+                "model_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\../sim_data\\sim_input\\1\\model.json",
+                "options_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\../sim_data\\sim_input\\1\\sim_options_1_r1.json"
+            }
+        ],
+        "batch_figures": {
+            "rates": [
+                {
+                    "relative_to": "False",
+                    "results_folder": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\..\\sim_data\\sim_output",
+                    "output_image_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\..\\sim_data\\sim_output\\rates",
+                    "output_image_formats": [
+                        "png"
+                    ]
+                }
+            ],
+            "superposed_traces": [
+                {
+                    "relative_to": "False",
+                    "results_folder": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\..\\sim_data\\sim_output",
+                    "output_image_file": "C:\\FiberSim_WithATPADPPi_Kinetics\\code\\FiberPy\\FiberPy\\..\\..\\..\\demo_files\\single_trials\\isometric_activation\\base\\..\\sim_data\\sim_output\\superposed_traces",
+                    "output_image_formats": [
+                        "png"
+                    ]
+                }
+            ]
+        }
+    }
+}
