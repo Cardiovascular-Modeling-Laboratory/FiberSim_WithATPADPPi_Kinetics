@@ -2246,13 +2246,13 @@ void half_sarcomere::mybpc_kinetics(double time_step)
 int half_sarcomere::return_m_transition(double time_step, int m_counter, int cb_counter)
 {
     // Code returns the transition for a partner head
-    std::cout << "time step:" << time_step << std::endl;
-    std::cout << "m_counter:" << m_counter << std::endl;
-    std::cout << "cb_counter:" << cb_counter << std::endl;
+    // std::cout << "time step:" << time_step << std::endl;
+    // std::cout << "m_counter:" << m_counter << std::endl;
+    // std::cout << "cb_counter:" << cb_counter << std::endl;
 
     size_t vector_size = transition_probs->size;
     for (size_t i = 0; i < vector_size; ++i) {
-        std::cout << "transition_probs before at index " << i << ": " << gsl_vector_get(transition_probs, i) << std::endl;
+        // std::cout << "transition_probs before at index " << i << ": " << gsl_vector_get(transition_probs, i) << std::endl;
     }
     // Variables
     
@@ -2443,9 +2443,9 @@ int half_sarcomere::return_m_transition(double time_step, int m_counter, int cb_
             }
         }
 
-        for (size_t i = 0; i < vector_size; ++i) {
-            std::cout << "transition_probs after at index " << i << ": " << gsl_vector_get(transition_probs, i) << std::endl;
-        }
+        // for (size_t i = 0; i < vector_size; ++i) {
+        //     std::cout << "transition_probs after at index " << i << ": " << gsl_vector_get(transition_probs, i) << std::endl;
+        // }
     }
 
     // Use random number to determine which event (if any) occurred
